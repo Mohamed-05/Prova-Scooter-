@@ -1,0 +1,62 @@
+body{
+  background-size: cover;
+}
+
+header{
+  color: lime;
+  text-align: center;
+}
+
+header > img{
+  width: 25%;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.scelte{
+  background-color: lime;
+  text-align: center;
+  padding-top: 17.5px;
+  padding-left: 50px;
+  height: 30px;
+  margin-left: 50px;
+  margin-right: 80px;
+}
+
+#container > .venditore1, .venditore2, .venditore3{
+margin-top: 20px;
+margin-left: 50px;
+color: white;
+}
+
+#container{
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  margin-bottom: 150px;
+  margin-left: 230px;
+  margin-right: 230px;
+  padding-bottom: 150px;
+  border-radius: 10px 10px 10px 10px;
+
+}
+
+.venditore1 > .carica-arancione{
+  background-color: orange;
+  width: 300px;
+  height: 20px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.venditore2 > .carica-verde{
+  background-color: lime;
+  width: 450px;
+  height: 20px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.venditore3 > .carica-rosa{
+  background-color: fuchsia;
+  width: 130px;
+  height: 20px;
+  border-radius: 5px 5px 5px 5px;
+}
